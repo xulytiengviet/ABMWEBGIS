@@ -22,3 +22,11 @@ Settings → Pages → Build and deployment → Deploy from a branch → main �
 3. Định tuyến theo đường giao thông, raster friction, GIS patches, biểu đồ và xuất snapshot.
 
 Nền bản đồ có thể cần Internet và tile service. Tác tử không đại diện tình huống thực tế.
+
+## Thư viện 30 bài toán (v0.2.0)
+
+Trang chủ có dropdown **30 bài toán ABM**, chọn mỗi bài để tự thiết lập vùng minh họa, số tác tử, vận tốc và quy tắc hành vi. Năm họ hành vi mô phỏng: di chuyển đến điểm hấp dẫn, về điểm nhận/điểm tập kết, đi giữa các cực, tránh vùng rủi ro, tuần tra; thêm lan truyền trạng thái theo khoảng cách.
+
+Các tình huống: giao thông giờ cao điểm; sơ tán ngập; giao hàng; dịch bệnh; cháy rừng; di cư lao động; vaccine; lan truyền thông tin; du lịch; xe buýt; robot nông nghiệp; sâu bệnh; đánh bắt; thu gom rác; trạm sạc; cứu thương; người đi bộ; trường học; chợ nông sản; vận chuyển lúa; xâm nhập mặn; rừng ngập mặn; sạt lở; drone; logistics; mua sắm; an ninh sự kiện; bến phà; phân bố dân số; cứu trợ thiên tai.
+
+**Giới hạn khoa học:** Các hành vi là nguyên mẫu minh họa chứ không phải 30 mô hình đã kiểm định. Chưa có mạng đường, kịch bản vật lý thủy văn, ranh giới hành chính chính thức hoặc đồng bộ runtime NetLogo. Các kịch bản thay đổi chế độ/đích di chuyển nhưng không giải bài toán tối ưu có ràng buộc thực tế. Có thể nạp GeoJSON Polygon/MultiPolygon để áp giới hạn GIS, mặc định vùng là khung minh họa.
